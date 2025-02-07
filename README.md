@@ -86,27 +86,26 @@ pyspark pyspark.ipynb
 
 ### 1. Data Loading and Preprocessing
 The UNSW-NB15 dataset is loaded and preprocessed to prepare for analysis. Below is the preview of the dataset:
-![Dataset Preview](path/to/screenshot1.png)
 
 ### 2. Descriptive Statistics
 Summary statistics of the dataset, showing count, mean, standard deviation, and range for all features:
-![Descriptive Statistics](path/to/screenshot2.png)
+![Descriptive Statistics](<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/89cce777-60fe-433a-bd72-af276d5eb228" />)
 
 ### 3. Correlation Analysis
 A correlation matrix was generated to identify relationships between numerical features:
-![Correlation Matrix](path/to/screenshot3.png)
+![Correlation Matrix](<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/e6246bc7-a502-4bc3-8aec-34d4566aa604" />)
 
 ### 4. Kernel Density Estimation
 A kernel density plot was created to analyze the distribution of the `duration` feature:
-![Kernel Density Plot](path/to/screenshot4.png)
+![Kernel Density Plot](<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/55e11584-11aa-4351-94d8-2fd391d1f3c8" />)
 
 ### 5. Principal Component Analysis (PCA)
 PCA was applied to reduce dimensionality. The first two principal components explain most of the data variability:
-![PCA Visualization](path/to/screenshot5.png)
+![PCA Visualization](<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/df4a8a0b-bf57-4fdd-97a7-06268426a1e5" />)
 
 ### 6. K-Means Clustering
 K-Means clustering was performed to identify clusters within the dataset:
-![K-Means Clustering](path/to/screenshot6.png)
+![K-Means Clustering](<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/fe82aeef-78a9-4403-a17a-42e2bf831384" />)
 
 ### 7. Classification with Random Forest
 A Random Forest classifier was trained for binary classification of normal vs. attack traffic. Below are the confusion matrix and classification report:
