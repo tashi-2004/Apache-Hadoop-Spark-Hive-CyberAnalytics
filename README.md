@@ -5,8 +5,8 @@ This repository demonstrates a comprehensive big data analytics pipeline tailore
 ## Prerequisites
 
 Ensure you have the following installed on your system:
-- Apache Hadoop
-- Apache Hive
+- Apache Hadoop (3.3.6)
+- Apache Hive (4.0.1)
 - PySpark
 - Python 3.x
 - Jupyter Notebook 
@@ -21,8 +21,6 @@ Follow these steps to set up your environment:
    git clone https://github.com/tashi-2004/Hadoop-Spark-Hive-CyberAnalytics.git
    cd Hadoop-Hive-PySpark-CyberAnalytics
 
-2. **Set Up Hadoop and Hive**
-- Config Apache Hadoop 3.3.6 and Apache Hive 4.0.1. 
 ## Understanding the Dataset: UNSW-NB15
 
 The UNSW-NB15 dataset was created by the IXIA PerfectStorm tool in the Cyber Range Lab of the Australian Centre for Cyber Security (ACCS). It generates a mix of real modern activities and synthetic contemporary attack behaviors. The dataset contains raw network traffic captured using the **tcpdump** tool (100 GB in size). 
@@ -120,8 +118,7 @@ A Logistic Regression model was used for binary classification, with the followi
 - **Classification Report**:
   <img width="1000" alt="Image" src="https://github.com/user-attachments/assets/7b6c6e2b-664a-48f8-8af6-89a8715a1bbc" />
 
-## Summary
-The analysis using PySpark provided insights into the UNSW-NB15 dataset, including feature correlations, distribution patterns, and clustering. Additionally, the classification models demonstrated high accuracy in detecting cyberattacks.
-
-
-
+## Contact
+For queries or contributions, please contact:
+**Tashfeen Abbasi**  
+Email: abbasitashfeen7@gmail.com
