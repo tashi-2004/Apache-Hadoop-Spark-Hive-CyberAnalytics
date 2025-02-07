@@ -86,40 +86,39 @@ pyspark pyspark.ipynb
 
 ### 1. Data Loading and Preprocessing
 The UNSW-NB15 dataset is loaded and preprocessed to prepare for analysis. Below is the preview of the dataset:
+<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/d22345a9-b36c-4516-b6f6-ba74fbc95336" />
 
 ### 2. Descriptive Statistics
 Summary statistics of the dataset, showing count, mean, standard deviation, and range for all features:
-<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/89cce777-60fe-433a-bd72-af276d5eb228"
+<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/89cce777-60fe-433a-bd72-af276d5eb228" />
 
 ### 3. Correlation Analysis
 A correlation matrix was generated to identify relationships between numerical features:
-<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/e6246bc7-a502-4bc3-8aec-34d4566aa604" 
+<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/e6246bc7-a502-4bc3-8aec-34d4566aa604"  />
 
 ### 4. Kernel Density Estimation
 A kernel density plot was created to analyze the distribution of the `duration` feature:
-<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/55e11584-11aa-4351-94d8-2fd391d1f3c8" 
+<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/55e11584-11aa-4351-94d8-2fd391d1f3c8"  />
 
 ### 5. Principal Component Analysis (PCA)
 PCA was applied to reduce dimensionality. The first two principal components explain most of the data variability:
-<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/df4a8a0b-bf57-4fdd-97a7-06268426a1e5"
+<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/df4a8a0b-bf57-4fdd-97a7-06268426a1e5" />
 
 ### 6. K-Means Clustering
 K-Means clustering was performed to identify clusters within the dataset:
-<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/fe82aeef-78a9-4403-a17a-42e2bf831384"
+<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/fe82aeef-78a9-4403-a17a-42e2bf831384" />
 
 ### 7. Classification with Random Forest
 A Random Forest classifier was trained for binary classification of normal vs. attack traffic. Below are the confusion matrix and classification report:
 - **Confusion Matrix**:
-  ![Confusion Matrix](path/to/screenshot7.png)
-- **Classification Report**:
-  ![Classification Report](path/to/screenshot8.png)
+  ![Confusion Matrix](<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/adbdce2f-f432-4729-b6b9-13c9a65a9dfc" />)
 
 ### 8. Classification with Logistic Regression
 A Logistic Regression model was used for binary classification, with the following results:
 - **Confusion Matrix**:
-  ![Logistic Regression Confusion Matrix](path/to/screenshot9.png)
+  ![Logistic Regression Confusion Matrix](<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/fda3838c-60bb-423e-a06a-a63c382edc83" />)
 - **Classification Report**:
-  ![Logistic Regression Report](path/to/screenshot10.png)
+  ![Logistic Regression Report](<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/7b6c6e2b-664a-48f8-8af6-89a8715a1bbc" />)
 
 ## Summary
 The analysis using PySpark provided insights into the UNSW-NB15 dataset, including feature correlations, distribution patterns, and clustering. Additionally, the classification models demonstrated high accuracy in detecting cyberattacks.
