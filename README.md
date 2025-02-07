@@ -24,13 +24,13 @@ Follow these steps to set up your environment:
 ## Understanding Dataset: UNSW-NB15
 
 The UNSW-NB15 dataset was created by the IXIA PerfectStorm tool in the Cyber Range Lab of the Australian Centre for Cyber Security (ACCS). It generates a mix of real modern activities and synthetic contemporary attack behaviors. The dataset contains raw network traffic captured using the **tcpdump** tool (100 GB in size). 
+- Feature descriptions for the dataset: [Download Features](https://www.dropbox.com/s/c8qrzd99z5s9ub6/UNSW-NB15_features.csv?dl=1)
+- The complete UNSW-NB15 dataset: [Download Dataset](https://www.dropbox.com/s/4xqg32ih9xoh5jq/UNSW-NB15.csv?dl=1)
 
 ### Key Features of the Dataset:
 - It includes **nine types of attacks**: Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode, and Worms.
 - Tools such as **Argus** and **Bro-IDS** were used, along with twelve algorithms, to generate **49 features**, including a class label.
 - A total of **10 million records** are available in the dataset (CSV format), with a total size of approximately **600MB**.
-- [Download Features](https://www.dropbox.com/s/c8qrzd99z5s9ub6/UNSW-NB15_features.csv?dl=1)
-- [Download Dataset](https://www.dropbox.com/s/4xqg32ih9xoh5jq/UNSW-NB15.csv?dl=1)
 
 ### Steps for Analysis:
 1. **Explore the dataset** by importing it into Hadoop HDFS.
