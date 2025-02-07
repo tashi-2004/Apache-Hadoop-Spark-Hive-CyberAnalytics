@@ -21,7 +21,7 @@ Follow these steps to set up your environment:
    git clone https://github.com/tashi-2004/Hadoop-Spark-Hive-CyberAnalytics.git
    cd Hadoop-Hive-PySpark-CyberAnalytics
 
-## Understanding the Dataset: UNSW-NB15
+## Understanding Dataset: UNSW-NB15
 
 The UNSW-NB15 dataset was created by the IXIA PerfectStorm tool in the Cyber Range Lab of the Australian Centre for Cyber Security (ACCS). It generates a mix of real modern activities and synthetic contemporary attack behaviors. The dataset contains raw network traffic captured using the **tcpdump** tool (100 GB in size). 
 
@@ -29,20 +29,15 @@ The UNSW-NB15 dataset was created by the IXIA PerfectStorm tool in the Cyber Ran
 - It includes **nine types of attacks**: Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode, and Worms.
 - Tools such as **Argus** and **Bro-IDS** were used, along with twelve algorithms, to generate **49 features**, including a class label.
 - A total of **10 million records** are available in the dataset (CSV format), with a total size of approximately **600MB**.
-
+- [Download Features](https://www.dropbox.com/s/c8qrzd99z5s9ub6/UNSW-NB15_features.csv?dl=1)
+- [Download Dataset](https://www.dropbox.com/s/4xqg32ih9xoh5jq/UNSW-NB15.csv?dl=1)
 
 ### Steps for Analysis:
 1. **Explore the dataset** by importing it into Hadoop HDFS.
 2. **Use Hive** to query and print the first 5-10 records for better understanding.
 3. Proceed with big data analytics using PySpark and Hive for advanced modeling and visualization.
 
-For more information about the dataset, you can refer to:
-- [Download Features](https://www.dropbox.com/s/c8qrzd99z5s9ub6/UNSW-NB15_features.csv?dl=1)
-- [Download Dataset](https://www.dropbox.com/s/4xqg32ih9xoh5jq/UNSW-NB15.csv?dl=1)
-
-## Usage
-
-### Start Hadoop Services
+## Start Hadoop Services
 Navigate to the Hadoop directory and start all necessary services using the `start-all.sh` script:
 ```bash
 start-all.sh
@@ -54,7 +49,7 @@ hadoop fs -put home/to/UNSW-NB15.csv /user/in/hdfs
 ```
 <img width="1000" alt="Image" src="https://github.com/user-attachments/assets/11aa979f-c519-48c4-b149-9a6b34156a38" />
 
-### Execute Hive Queries
+## Execute Hive Queries
 After the data is loaded into HDFS, proceed to execute Hive queries to analyze the dataset:
 ```bash
 hive -f hivequeries.hql
@@ -75,7 +70,7 @@ hive -f hivequeries.hql
 ![Hive Query 5](https://github.com/user-attachments/assets/449c55b6-53eb-4e47-9399-37ffc6fb5e10)
 
 
-# PySpark Analysis
+## PySpark Analysis
 Following the Hive query execution, use PySpark to perform further data analysis. Run the PySpark notebook to carry out this step:
 ```bash
 pyspark pyspark.ipynb
