@@ -86,7 +86,7 @@ pyspark pyspark.ipynb
 
 ### 1. Data Loading and Preprocessing
 The UNSW-NB15 dataset is loaded and preprocessed to prepare for analysis. Below is the preview of the dataset:
-<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/d22345a9-b36c-4516-b6f6-ba74fbc95336" />
+<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/b7b511bc-0859-4fa1-9236-cb94b2770117" />
 
 ### 2. Descriptive Statistics
 Summary statistics of the dataset, showing count, mean, standard deviation, and range for all features:
