@@ -18,7 +18,7 @@ Follow these steps to set up your environment:
 1. **Clone the Repository**
    Clone the repository and navigate to the project directory using the following commands:
    ```bash
-   git clone https://github.com/yourusername/Hadoop-Hive-PySpark-CyberAnalytics.git
+   git clone https://github.com/tashi-2004/Hadoop-Spark-Hive-CyberAnalytics.git
    cd Hadoop-Hive-PySpark-CyberAnalytics
 
 2. **Set Up Hadoop and Hive**
