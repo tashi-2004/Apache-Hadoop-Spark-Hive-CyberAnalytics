@@ -111,14 +111,14 @@ K-Means clustering was performed to identify clusters within the dataset:
 ### 7. Classification with Random Forest
 A Random Forest classifier was trained for binary classification of normal vs. attack traffic. Below are the confusion matrix and classification report:
 - **Confusion Matrix**:
-  ![Confusion Matrix](<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/adbdce2f-f432-4729-b6b9-13c9a65a9dfc" />)
+  <img width="1000" alt="Image" src="https://github.com/user-attachments/assets/adbdce2f-f432-4729-b6b9-13c9a65a9dfc" />
 
 ### 8. Classification with Logistic Regression
 A Logistic Regression model was used for binary classification, with the following results:
 - **Confusion Matrix**:
-  ![Logistic Regression Confusion Matrix](<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/fda3838c-60bb-423e-a06a-a63c382edc83" />)
+  <img width="1000" alt="Image" src="https://github.com/user-attachments/assets/fda3838c-60bb-423e-a06a-a63c382edc83" />
 - **Classification Report**:
-  ![Logistic Regression Report](<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/7b6c6e2b-664a-48f8-8af6-89a8715a1bbc" />)
+  <img width="1000" alt="Image" src="https://github.com/user-attachments/assets/7b6c6e2b-664a-48f8-8af6-89a8715a1bbc" />
 
 ## Summary
 The analysis using PySpark provided insights into the UNSW-NB15 dataset, including feature correlations, distribution patterns, and clustering. Additionally, the classification models demonstrated high accuracy in detecting cyberattacks.
