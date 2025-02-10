@@ -9,7 +9,7 @@ Ensure you have the following installed on your system:
 - Apache Hive (4.0.1)
 - PySpark
 - Python 3.x
-- Jupyter Notebook 
+- Jupyter Notebook.
 
 ## Installation
 
